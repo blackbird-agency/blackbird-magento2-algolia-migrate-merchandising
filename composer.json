@@ -1,0 +1,26 @@
+{
+  "name": "blackbird/module-algolia-migrate-merchandising",
+  "version": "1.0.0",
+  "description": "",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "algolia/algoliasearch-magento-2": "^3.15"
+  },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Blackbird Agency",
+            "email": "contact@bird.eu",
+            "homepage": "https://black.bird.eu"
+        }
+    ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Blackbird\\AlgoliaMigrateMerchandising\\": ""
+    }
+  }
+}
